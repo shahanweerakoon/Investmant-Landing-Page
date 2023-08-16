@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700;900&display=swap');
+
+:root{
+    --orange : #F54C1E ;
+    --main-color: #031333 ;
+    --lato-reguler : 'Lato', sans-serif ;
+}
+body{
+    height: 1000vh;
+}
+.main-color-text{
+    color: var(--main-color) !important;
+}
+.main-color-background{
+    background-color: var(--main-color) !important;
+}
+.sencondary-color-text{
+    color: var(--orange) !important;
+}
+
+.sendary-color-btn{
+    background-color: var(--orange);
+    color: white !important;
+}
+.sendary-color-btn:hover{
+    color: var(--orange) !important;
+
+}
+.sencondary-color-text{
+    color: var(--orange) !important;
+}
+.main-font{
+    font-family: 'Lato', sans-serif 
+    ;
+    color: #F54C1E ;
+    font-weight: 400;
+}
+
+.text-with-divider {
+  position: relative;
+  display: inline-block;
+}
+
+.text-with-divider::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--orange); /* You can change the color as desired */
+  position: absolute;
+  bottom: 10;
+  left: 0;
+}
+
+.hero-section{
+    height: 95vh;
+}
+.full-hiight{
+    height: 100%;
+}
+.full-width{
+    width: 100%;
+}
+
+.heading-font-size{
+    font-size: 220%;
+}
+
+.section-margin-spacer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-overlay-color{
+    background: rgb(253,92,48); background: linear-gradient(360deg, rgba(253,92,48,1) 0%, rgba(255,255,255,0) 56%); 
+    height: 100%; 
+    width: 100%;
+}
+
+.latest-project-box{
+    height: 464px;
+    width: 371px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-overlay-color{
+    background: rgba(3, 19, 51, 0.7); 
+    height: 100%; 
+    width: 100%;
+}
